@@ -1,7 +1,7 @@
 module "network" {
   source  = "app.terraform.io/mc1-training/network/google"
   version = "2.5.0"
-  project_id = var.project_id
+  project_id = var.project
   network_name = "example-vpc"
   subnets = [
     {
